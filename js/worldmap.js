@@ -50,9 +50,9 @@ window.onload=function() {
                 });
             break;
             case 'VN':
-                markerData.forEach(e => {
-                    if(e.Name === "베트남"){
-                        countryData = e;
+                markerData.forEach(function(item) {
+                    if(item.Name === "베트남"){
+                        countryData = item;
                     }
                 });
             break;
