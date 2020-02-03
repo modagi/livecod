@@ -200,6 +200,7 @@ window.onload=function() {
 
     for(let i=0;i<infected.length;i++){
         infected[i].addEventListener("click", function(e){
+            console.log(clicked);
             let identity = infected[i].id;
             
             matchingCountry(identity);
